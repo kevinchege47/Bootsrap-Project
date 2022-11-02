@@ -1,0 +1,223 @@
+html{
+    background: linear-gradient(to right, #eb0089 0%, #ff5c5c 100%);
+
+}
+
+.container{
+    min-height: 300px;
+    width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-image: url('images/image-lion-background.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.125rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+    
+}
+
+main{
+ 
+    min-height: 300px;
+}
+.main2{
+    min-height: 100px;
+    padding-top: 30px;
+}
+.cards{
+  
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+ 
+    
+   
+}
+.card1{
+   background-image: url(images/loga.jpg);
+   background-size: cover;
+   background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+}
+.card2{
+   
+    background-image: url(images/logb.jpg);
+    min-height: 250px;
+    background-position: bottom;
+    background-size: cover;
+    width: 30%;
+}
+.card3{
+    background-image: url(images/logc.jpg);
+    min-height: 250px;
+    background-position: bottom;
+    background-size: cover;
+    width: 30%;
+}
+.herocontainer{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+.herobox1{
+ flex: 2;
+
+}
+.herobox2 img{ box-shadow: 4px 4px rgba(0, 0, 0, 0.212);}
+.herobox2{
+    flex: 1;
+   }
+
+h1{
+    font-size: 3.25rem;
+    color:black;
+    font-family: 'Texturina', serif;
+    padding-bottom: 1.5rem;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.116);
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8rem;
+    padding-right: 2rem;
+}
+h2{
+    color:white;
+    font-family: 'Texturina', serif;
+    margin-top: 20px;
+   
+}
+.cards p{
+    font-family: 'Roboto', sans-serif;
+    line-height:1.5rem ;
+    margin: 10px;
+    font-size: 1.0rem;
+}
+.cards i{
+    margin-top: 20px;
+    font-size: 100px;
+}
+.card1 a{
+    text-decoration: none;
+    color: white;
+}
+.card2 a{
+    text-decoration: none;
+    color: white;
+}
+.card3 a{
+    text-decoration: none;
+    color: white;
+}
+.card1,.card2,.card3{
+    box-sizing: border-box;
+    padding:30px 30px 20px 30px ;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.233);
+}
+.myButton{
+    text-decoration: none;
+    color:#eb0089 ; 
+    background-color:white;
+    padding: 11px 25px;
+    border-radius:20px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.212);
+   
+  
+}
+a.myButton{
+    display: inline-block;
+   margin-top: 10px;
+    text-align: center;
+  }
+
+.herocontainer img{
+    border-radius: 20px;
+}
+/* nav a.myButton{
+margin:10px;
+} */
+/* .navButton a{
+    border: 2px solid white;
+    color:white;
+    margin: 10px;
+    text-decoration: none;
+    display: inline-block;
+    padding:15px;
+} */
+
+.navdrop
+{border: 1px solid white;
+padding: 11px 25px;
+font-family: 'Playfair Display', serif;
+display: inline-block;
+position: relative;
+}
+.tbox{
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    padding: 50px;
+    margin-top: 50px;
+  
+}  
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}  
+.myButton:hover{
+    background-color: rgba(255, 255, 255, 0.212);
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+/* .herobox1 :first-child{
+    color: brown;
+} */
+/* .tbox :last-child{
+    color: chartreuse;
+} */
+
+.tbox p:last-of-type{
+  font-size: .8 rems;
+  padding-left: 20px;
+}
+.dropdown{
+    display:none;
+    position: absolute;
+    padding-top: 20px;
+    text-align: center;
+  
+}
+.navdrop:hover .dropdown {
+    display: block;
+    z-index: 1;
+    /* margin-left: -26px; */
+}
+.navdrop .dropdown{
+   
+    background-color: rgb(255, 255, 255);
+    border-bottom:1px red;
+  
+}
+.dropdown a{
+   
+    color: rgb(255, 0, 157);
+
+}
+/* .navdrop:first-child{
+    border-bottom: 2px red;
+} */
+

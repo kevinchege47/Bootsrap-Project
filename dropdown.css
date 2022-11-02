@@ -1,0 +1,31 @@
+.navdrop {
+    background-color: chartreuse;
+    padding: 11px 25px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+.navdrop a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+.dropdownbox{
+    padding-top: 20px;
+    display: none;
+    position: absolute;
+   
+}
+.navdrop:hover .dropdownbox{
+    display: block;
+   
+}
+.dropdownbox .navdrop {
+    background-color: rgba(0, 0, 0, 0.212);
+}
+.dropdownbox .navdrop:hover{
+    background-color: rgba(219, 10, 10, 0.746);
+    transition-duration: .5s;
+}
